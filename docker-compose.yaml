@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+ tanishquwebapp:
+    image: tanishqmobiweb:appv1
+    build: .
+    container_name: tanishqwebc1
+    ports:
+      - 8880:80
+    restart: always
